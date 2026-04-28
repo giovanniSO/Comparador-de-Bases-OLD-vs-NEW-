@@ -1,16 +1,28 @@
-# Data Compare Audit
+# 📊 Data Compare Audit
 
-Projeto simples para comparar duas bases de dados (old vs new) e identificar divergências após processos de ETL ou migração.
+Ferramenta em Python para **comparação e auditoria de bases de dados (old vs new)**, muito comum em cenários de **ETL, migração, carga de dados e validação pós-processamento**.
 
-## 🎯 Objetivo
-- Validar se a nova base mantém consistência com a base antiga
-- Identificar registros novos, removidos ou alterados
+O projeto identifica:
+- Diferença de volume entre bases
+- Registros alterados
+- Registros novos
+- Registros removidos
 
-## 🧰 Tecnologias
-- Python
+---
+
+## 🎯 Caso de uso
+- Auditoria de cargas de dados
+- Validação de ETLs
+- Comparação de bases após migração
+- Controle de qualidade de dados
+
+---
+
+## 🧰 Tecnologias utilizadas
+- Python 3
 - Pandas
 
-## ▶️ Como executar
-```bash
-pip install -r requirements.txt
-python compare.py
+---
+
+## 📂 Estrutura do projeto
+``
